@@ -34,7 +34,6 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(800, 600);
   video.position(0,0);
-
   flippedVideo = ml5.flipImage(video);
   
   //start with first frame after loading time
@@ -55,7 +54,7 @@ function sleep(ms) {
 }
 
 function draw() {
-  background(0);
+  background(35,38,36);
   if (label == 'question') {
     questionFade = 255;
   } else if (label == 'yes') {
@@ -83,6 +82,9 @@ function draw() {
     image(no, 0, 0);
     noFade -= 5;
   }
+let s = 'Im Sourcecode den Link von Google Teachable Machine einfügen um neu zu spezialisieren.';
+fill(255);
+text(s, 10, 620, 500, 80); 
 }
 
 // Get a prediction for the current video frame

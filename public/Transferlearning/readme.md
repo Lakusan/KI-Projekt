@@ -1,12 +1,13 @@
-# NN für Klassifizierung (KNN)
+# Classification
 
-## Frameworks
+## Frameworks und Hilfsmittel 
 
 - p5.js
     Visualisierung
 
 - ml5.js
     Machine Learning ( High Level Framework, nutzt Tensorflow)
+
 
 ## Wie Starten
 
@@ -23,21 +24,19 @@
 
 ## Was passiert hier:
 
-Die App soll einfach und anschaulich den Lernporzess und die Prediction eines KNN darstellen und damit verbunden die Klassifizierung durch ein NN zeigen.
+sace -> downloads
+Projektverzeichnis laden
+## Möglich Anwednungsszenarien
+
+
+
 
 ## Einstiegspunkte
 
 HTML - Index.html
-Javascript - sketch.js
+Javascript - index.js
 
 ## Module
 
-sketch.js - main()
+index.js - main()
 
-controls.js - Tastatur- / Mouseeingabe
-classify.js
-DataSet.json
-drawing.js
-model.js
-index.html
-training.js

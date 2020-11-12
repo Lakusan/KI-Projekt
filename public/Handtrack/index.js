@@ -52,7 +52,7 @@ async function main() {
     fp.Gestures.ThumbsUpGesture,
     thumbsDownGesture,
     fistGesture,
-    metalGesture
+    metalGesture,
   ];
 
   const GE = new fp.GestureEstimator(knownGestures);
@@ -190,20 +190,12 @@ async function createCustomGestures() {
 
     // 😂
     // all Fingers vertical up and no curl | thumb Diagonal up left and right
-    for (let finger of [
-      fp.Finger.Index,
-      fp.Finger.Pinky,
-    ]) {
+    for (let finger of [fp.Finger.Index, fp.Finger.Pinky]) {
       metalGesture.addCurl(finger, fp.FingerCurl.NoCurl, 1.0);
-      metalGesture.addDirection( finger, fp.FingerDirection.VerticalUp,1.0);
+      metalGesture.addDirection(finger, fp.FingerDirection.VerticalUp, 1.0);
     }
-    
-    
-    for (let finger of [
-      fp.Finger.Ring,
-      fp.Finger.Middle,
-      fp.Finger.Thumb,
-    ]) {
+
+    for (let finger of [fp.Finger.Ring, fp.Finger.Middle, fp.Finger.Thumb]) {
       metalGesture.addCurl(finger, fp.FingerCurl.HalfCurl, 0.5);
     }
     // ✊
@@ -213,12 +205,12 @@ async function createCustomGestures() {
       fp.Finger.Middle,
       fp.Finger.Ring,
       fp.Finger.Pinky,
-      fp.Finger.Thumb
+      fp.Finger.Thumb,
     ]) {
       fistGesture.addCurl(finger, fp.FingerCurl.FullCurl, 1.0);
     }
-    console.log(metalGesture)
-    console.log(fistGesture)
+    console.log(metalGesture);
+    console.log(fistGesture);
     resolve("Custom Gestures Loaded");
     reject("Error: Custom gestures");
   });

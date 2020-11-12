@@ -10,20 +10,20 @@
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 <style type="text/css">
-    *{
-        background-color:#232624;
+    * {
+        background-color: #232624;
     }
+
     .bg {
-        background-color:#232624;
+        background-color: #232624;
     }
 
     nav {
-        background-color:#232624;
+        background-color: #232624;
         padding-left: 300px;
     }
 
@@ -44,17 +44,17 @@
         }
     }
 
-    .sidenav li>a>i, .sidenav li>a>[class^="mdi-"], .sidenav li>a li>a>[class*="mdi-"], .sidenav li>a>i.material-icon{
-        color: rgba(255,255,255,0.54) !important;
+    .sidenav li>a>i,
+    .sidenav li>a>[class^="mdi-"],
+    .sidenav li>a li>a>[class*="mdi-"],
+    .sidenav li>a>i.material-icon {
+        color: rgba(255, 255, 255, 0.54) !important;
     }
-
-   
 </style>
-
 <script type="text/javascript">
-	$(document).ready(function(){
-		$('.sidenav').sidenav();
-	});
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
 </script>
 
 <body>
@@ -69,94 +69,107 @@
     <ul class="sidenav sidenav-fixed bg" id="slide-out">
         <li>
             <div class="user-view">
-                  
+
                 <a href="#"><img src="lakusan.png" class="circle"></a>
                 <a href="#" class="white-text name">Andreas Lakus</a>
                 <a href="#" class="white-text email">11012049@stud.hochschule-heidelberg.de</a>
             </div>
         </li>
-        <li><a href="dashboard.html" class="white-text"><i class="material-icons">home</i>Dashboard</a></li>
+        <li><a href="index.html" class="white-text"><i class="material-icons">home</i>Dashboard</a></li>
         <li><a href="./public/KNN/index.html" class="white-text"><i class="material-icons">api</i>KNN</a></li>
-        <li><a href="./public/Classification/index.html" class="white-text"><i class="material-icons">school</i>Transferlearning</a></li>
+        <li><a href="./public/Transferlearning/index.html" class="white-text"><i
+                    class="material-icons">school</i>Transferlearning</a></li>
         <li><a href="./public/Memetings/index.html" class="white-text"><i class="material-icons">
                     sentiment_very_satisfied</i>Memetings</a></li>
-        <li><a href="./public/Handtrack/index.html" class="white-text"><i class="material-icons">pan_tool</i>Handtracking</a></li>
+        <li><a href="./public/Handtrack/index.html" class="white-text"><i
+                    class="material-icons">pan_tool</i>Handtracking</a></li>
     </ul>
     <div class="content bg">
         <div class="container">
             <div class="row">
                 <div class="col l12 m6 s12">
-                    
+
                     <div class="card card-bg">
-                    <h1 class="white-text center">Dokumentation</h1>
-                        
-                    <h2 class="white-text">Navigation</h2>
-                    <ul class="white-text">
-                        <ol>
-                            Dashboard: Hier sind wir gerade
-                        </ol>
-                        <p></p>
-                        <ol>
-                            KKN: 
+                        <h1 class="white-text center">Dokumentation</h1>
+
+                        <h2 class="white-text">Navigation</h2>
+                        <ul class="white-text">
                             <ol>
-                                Visualisierung des K-Neares Neighbor Algorithmus, welcher durch Klicks durch die Mouse Benutzereingaben lernt.</br> Aus den x/y-Koordinaten der Mouseposition werden anhand der Farbkreise (Klassen) ensprechende zuordnungen durchgeführt.<br>
-                                <p></p>
-                                Steuerung:
-                                Mouseklicks auf grauen Canvas => An Position wird fabrlich hinterleger Kreis gesetzt
-                                Tastatur:</br>
+                                Dashboard: Hier sind wir gerade
+                            </ol>
+                            <p></p>
+                            <ol>
+                                KKN:
+                                <ol>
+                                    Visualisierung des K-Neares Neighbor Algorithmus, welcher durch Klicks durch die
+                                    Mouse Benutzereingaben lernt.</br> Aus den x/y-Koordinaten der Mouseposition werden
+                                    anhand der Farbkreise (Klassen) ensprechende zuordnungen durchgeführt.<br>
+                                    <p></p>
+                                    Steuerung:
+                                    Mouseklicks auf grauen Canvas => An Position wird fabrlich hinterleger Kreis gesetzt
+                                    Tastatur:</br>
                                     A -> Klasse 1 => Weisser Kreis</br>
                                     B -> Klasse 2 => Blau Kreis</br>
                                     A -> Klasse 1 => Gr&uuml;ner Kreis</br>
                                     T -> Training </br>
                                     S -> Model Speichern (Downloadverzeichnis des PCs)</br>
                                     L -> Model Laden (Stammverzeichnis des Projekts)</br>
-                            </ol>
-                        <p></p>
+                                </ol>
+                                <p></p>
 
-                        </ol>
-                        <p></p>
-                        <ol>
-                            Transferlerning: 
+                            </ol>
+                            <p></p>
                             <ol>
-                                Ein Tool um mittels Transferlearning ein bestehendes Model (MobileNet) anhand der bereits trainierten Features eine neue Spezialisierung anzutrainieren.</br>
-                                Hier werden neue Bilder über die Webcam aufgenommen und mit Labels versehen. 
-                                Anschließend wird das Model mit dem neuen Datensatz trainiert. </br>
-                                Daten können gespeichert und geladen werden.                                
+                                Transferlerning:
+                                <ol>
+                                    Ein Tool um mittels Transferlearning ein bestehendes Model (MobileNet) anhand der
+                                    bereits trainierten Features eine neue Spezialisierung anzutrainieren.</br>
+                                    Hier werden neue Bilder über die Webcam aufgenommen und mit Labels versehen.
+                                    Anschließend wird das Model mit dem neuen Datensatz trainiert. </br>
+                                    Daten können gespeichert und geladen werden.
+                                </ol>
+                                <p></p>
                             </ol>
-                        <p></p>
-
-                        </ol>
-                        <p></p>
-                        <ol>
-                            Memetings: 
+                            <p></p>
                             <ol>
-                                Beispiel für ein mit der Google Teaching Machine trainiertes Model</br>
-                                Kann leider nur bedingt ausprobiert werden, da dieses mit einem eingenen DataSet bei mir zu Hause trainiert wurde. 
-                                <p>Mann kann dann mit einer Handgeste, wärend eines Meetings z.B. ein Bild einblenden und dadruch kommunizieren.</p>
+                                Memetings:
+                                <ol>
+                                    Beispiel für ein mit der Google Teaching Machine trainiertes Model</br>
+                                    Kann leider nur bedingt ausprobiert werden, da dieses mit einem eingenen DataSet bei
+                                    mir zu Hause trainiert wurde.
+                                    <p>Mann kann dann mit einer Handgeste, wärend eines Meetings z.B. ein Bild
+                                        einblenden und dadruch kommunizieren.</p>
+                                </ol>
+                                <p></p>
                             </ol>
-                        <p></p>
-
-                        </ol>
-                        <p></p>
-                        <ol>
-                            Handtacking: 
+                            <p></p>
                             <ol>
-                                Beispiel für Handtracking anhand eines Handtracking-Modells von Google</br>
-                                Kann von jedem genutzt werden, da das DataSet groß genug und bereits optimiert wurde. 
-                                <p>Mann kann dann mit einer Handgeste, Textemijiis einblenden lassen</p>
-                                <p>Gesten:  👍, ✌🏻, 👎, ✊, IiiI -> Heavy Metal ;) </p>
+                                Handtacking:
+                                <ol>
+                                    Beispiel für Handtracking anhand eines Handtracking-Modells von Google</br>
+                                    Kann von jedem genutzt werden, da das DataSet groß genug und bereits optimiert
+                                    wurde.
+                                    <p>Mann kann dann mit einer Handgeste, Textemijiis einblenden lassen</p>
+                                    <p>Gesten: 👍, ✌🏻, 👎, ✊, IiiI -> Heavy Metal 😺 </p>
+                                </ol>
+                                <p></p>
                             </ol>
-                        <p></p>
-
-                        </ol>
-                    </ul>
-                    
-                        
-                        
-                    
+                            <ol>
+                                *** WICHTIG ***
+                                <ol>
+                                    Bitte durch "F12" bzw "STRG + SHIFT + C" die Console des Browsers öffnen für
+                                    Fehlerbehandlung.</br>
+                                    Zudem bitte die Readme Dateien im Sourcecode beachten. DANKE ! </br>
+                                </ol>
+                                <p></p>
+                                <ol>
+                                    Hilfsmittel: </br>tensorflow.js, ml5.js, p5,js, jquery, handtrack.js </br>
+                                </ol>
+                                <p></p>
+                            </ol>
+                        </ul>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
