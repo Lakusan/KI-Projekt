@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+  <title>Handerkennung</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+  <script src="fingerpose.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+ 
+  <div id="video-container">
+    <video id="video" class="layer" playsinline></video>
+    <canvas id="canvas" class="layer"></canvas>
+    <div id="result" class="layer"></div>
+  </div>
+ 
+ <script src="index.js"></script>
+
+</body>
+</html>
