@@ -16,10 +16,9 @@
     -> Browser öffnet sich automatisch
 
 -> Alternativ 
-    -> Andere Webservber nutzen oder auf folgenden link klicken
+    -> Andere Webserver nutzen oder folgenden Link nutzen
         *** https://lakusan.github.io/KI-Projekt/ ***
     -> index.html im Projektverzeichnis öffnen
-
 
 ## Was passiert hier:
 
@@ -28,16 +27,15 @@ Die App soll einfach und anschaulich den Lernporzess und die Prediction eines KN
 ## Einstiegspunkte
 
 HTML - Index.html
-Javascript - sketch.js
+Javascript - index.js
 
 ## Module
 
 sketch.js - main()
 
 controls.js - Tastatur- / Mouseeingabe
-classify.js
-DataSet.json
-drawing.js
-model.js
-index.html
-training.js
+classify.js  - Klassifizierung
+DataSet.json -> Koordinaten und Labels
+drawing.js -> Visualisierung
+model.js -> Model handling
+training.js -> Einstellungen fürs trainging, StartTraining, callbacks

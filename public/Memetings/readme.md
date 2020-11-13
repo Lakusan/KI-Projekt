@@ -10,7 +10,6 @@
 
 - MobileNet (Model)
     
-
 ## Wie Starten
 
 -> VSCode
@@ -19,10 +18,9 @@
     -> Browser öffnet sich automatisch
 
 -> Alternativ 
-    -> Andere Webservber nutzen oder auf folgenden link klicken
+    -> Andere Webservber nutzen oder folgenden Link nutzen
         *** https://lakusan.github.io/KI-Projekt/ ***
     -> index.html im Projektverzeichnis öffnen
-
 
 ## Was passiert hier:
 
@@ -39,13 +37,12 @@ Gesprächschaos wird verhindert indem auch durch gesten eine Frage / Gesprächsb
 Auto AFK sobal keine Person mehr auf dem Bild erkannt wird.
 Durch NodeJS ( Laufzeitumgebung für Javascript) in Verbindung mit Socket.io (Client- Server Kommnikation) und RobotJS (GUI Automatisierung) können Applikationen direkt gesteuert werden (Bsp.: Discord mute / unmute)
 
-
 ## Einstiegspunkte
 
 HTML - Index.html
-Javascript - main.js
+Javascript - index.js
 
 ## Module
 
-main.js - main()
+index.js - main()
 

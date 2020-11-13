@@ -8,7 +8,6 @@
 - ml5.js
     Machine Learning ( High Level Framework, nutzt Tensorflow)
 
-
 ## Wie Starten
 
 -> VSCode
@@ -17,19 +16,17 @@
     -> Browser öffnet sich automatisch
 
 -> Alternativ 
-    -> Andere Webservber nutzen oder auf folgenden link klicken
+    -> Andere Webservber nutzen oder folgenden Link nutzen
         *** https://lakusan.github.io/KI-Projekt/ ***
     -> index.html im Projektverzeichnis öffnen
 
-
 ## Was passiert hier:
 
-sace -> downloads
-Projektverzeichnis laden
+Bilder werden von der Webcam aufgenommen und durch entsprechenden Klick auf einen Button mit einem Label versehen und Klassifiziert. Es wird durch den fratureExtractor das Model Mobile Net von Google genutzt.
+
 ## Möglich Anwednungsszenarien
 
-
-
+Bestehende Modelle auf neue Anwendungsfälle spezialisieren.
 
 ## Einstiegspunkte
 

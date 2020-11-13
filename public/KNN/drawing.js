@@ -35,15 +35,28 @@ function drawLoadedData() {
     var inputs = data[i].xs;
     var target = data[i].ys;
 
-    stroke(0);
+    let targetColor;
 
-    noFill();
-    ellipse(inputs.x, inputs.y, 24);
-    fill(0);
-    noStroke();
-    textAlign(CENTER, CENTER);
-    text(target.label, inputs.x, inputs.y);
+    switch (target.label) {
+      case "white":
+        targetColor = color(255);
+        targetColor.setAlpha(80);
+        break;
+      case "blue":
+        targetColor = color(0, 0, 255);
+        targetColor.setAlpha(80);
+        break;
+      case "green":
+        targetColor = color(0, 255, 0);
+        targetColor.setAlpha(80);
+        break;
+      default:
+        console.log("exit");
+        targetColor = "pink";
+        break;
+    }
+    fill(targetColor);
+    ellipse(inputs.x, inputs.y, 50);
   }
   startTraining();
 }
-
