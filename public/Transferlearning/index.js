@@ -95,11 +95,11 @@ function createButtons() {
 
   // Load saved classifier dataset
   buttonSetData = document.querySelector("#load");
-  buttonSetData.addEventListener("click", loadMyKNN);
+  buttonSetData.addEventListener("click", loadModel);
 
   // Get classifier dataset
   buttonGetData = document.querySelector("#save");
-  buttonGetData.addEventListener("click", saveMyKNN);
+  buttonGetData.addEventListener("click", saveModel);
 }
 
 // Show the results
