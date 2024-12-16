@@ -13,6 +13,9 @@
   <p align="center">
     </br>
     <a href="https://lakusan.github.io/KI-Projekt/"><strong>Live Version »</strong></a>
+    </br>
+    </br>
+    <a href="https://github.com/Lakusan/KI-Projekt/blob/main/11012049_KI_Pr%C3%A4sentation.pdf"><strong>Präsentation »</strong></a>
 </div>
 
 
