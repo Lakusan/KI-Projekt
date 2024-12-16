@@ -73,3 +73,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 * Project Link: [https://github.com/Lakusan/KI-Projekt](https://github.com/Lakusan/KI-Projekt)
 * [![LinkedIn][linkedin-shield]][linkedin-url]
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/lakusan
