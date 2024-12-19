@@ -55,7 +55,7 @@
     - [README](https://github.com/Lakusan/KI-Projekt/blob/main/public/Transferlearning/README.md) 
 
 - [X] Memetings
-  - [X] Trainiertes Modell zur Handgestenerkennung zur Einblendung von Bildern während virtueller rMeetings in virtueller Kamera.
+  - [X] Trainiertes Modell für Handgestenerkennung zur Einblendung von Bildern während online Meetings mittels virtueller Kamera.
     - [README](https://github.com/Lakusan/KI-Projekt/blob/main/public/Memetings/README.md) 
 
 - [X] Handtracking
